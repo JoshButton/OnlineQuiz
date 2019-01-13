@@ -1,3 +1,28 @@
+var player;
+
+function onYouTubeIframeAPIReady() {
+     player = new YT.Player('video-foreground', {
+     videoId: 'ddFvjfvPnqk', // YouTube Video ID
+     playerVars: {
+     autoplay: 1, // Auto-play the video on load
+     controls: 0, // Show pause/play buttons in player
+     showinfo: 0, // Hide the video title
+     modestbranding: 1, // Hide the Youtube Logo
+     loop: 1, // Run the video in a loop
+     fs: 0, // Hide the full screen button
+     cc_load_policy: 0, // Hide closed captions
+     iv_load_policy: 3, // Hide the Video Annotations
+     autohide: 0, // Hide video controls when playing
+     playlist: 'ddFvjfvPnqk'
+ },
+ events: {
+     onReady: function(e) {
+     e.target.mute();
+     }
+ }
+ });
+}
+
 var questions = [
 	    {
 	          prompt: "What color are apples?\n(a) Red/Green\n\ (b) Purple\n(c) Orange",
