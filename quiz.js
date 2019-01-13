@@ -12,6 +12,7 @@ var questions = [
 	         answer: "a"
 	    }
 	];
+        function playQuiz(){
 	var score = 0;
 
 	for(var i = 0; i < questions.length; i++){
@@ -24,3 +25,4 @@ var questions = [
 	    }
 	}
 	alert("you got " + score + "/" + questions.length);
+	}
