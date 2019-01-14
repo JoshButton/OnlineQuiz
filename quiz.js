@@ -9,7 +9,7 @@ function playQuiz(name){
 		score = 0;
 		questionsAnswered = 0;
 		
-		alert("Hi " + name + ", welcome to my quiz);
+		alert("Hi " + name + ", welcome to my CN5122 - Data Communications and Networks TCA1 practice quiz");
 	
 		for(var i = 0; i < questions.length; i++){
 			var response = window.prompt(questions[i].prompt);
