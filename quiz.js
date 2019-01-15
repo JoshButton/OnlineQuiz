@@ -376,7 +376,7 @@ var questions = [
 
 
 	{ prompt: "The TCP/IP _______ layer is equivalent to the combined session, presentation, and application layers of the OSI model.\n(A) application\n(B) network\n(C) data link\n(D) physical", 
-	fullAnswer: "physical",
+	fullAnswer: "application",
 	Answer: ""
 	},
 
