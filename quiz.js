@@ -383,7 +383,7 @@ var questions = [
 
 
 	{ prompt: "The ________ address, also known as the link address, is the address of a node as defined by its LAN or WAN.\n(A) physical\n(B) IP\n(C) port\n(D) specific", 
-	fullAnswer: "IP",
+	fullAnswer: "physical",
 	Answer: ""
 	},
 
@@ -487,7 +487,7 @@ var questions = [
 
 
 
-	{ prompt: "______ can be applied when the bandwidth of a link (in hertz) is greater than the combined bandwidths of the signals to be transmitted.\n(A) TDM\n(B) FDM\n(B)\n(B)", 
+	{ prompt: "______ can be applied when the bandwidth of a link (in hertz) is greater than the combined bandwidths of the signals to be transmitted.\n(A) TDM\n(B) FDM\n(C) Both (a) or (b)\n(D) Neither (a) or (b)", 
 	fullAnswer: "FDM",
 	Answer: ""
 	},
@@ -719,14 +719,14 @@ var questions = [
 
 
 	{ prompt: "Based on the Clos criteria, if N = 200, then the minimum number of crosspoints is greater than or equal to _______.\n(A) 15,200\n(B) 18,000\n(C) 42,000\n(D) 20,000", 
-	fullAnswer: "15200",
+	fullAnswer: "15,200",
 	Answer: ""
 	},
 
 
 
 	{ prompt: "In a one-stage space division switch, if N = 200, the number of crosspoints is ______.\n(A) 10,000\n(B) 20,000\n(C) 40,000\n(D) 30,000", 
-	fullAnswer: "40000",
+	fullAnswer: "40,000",
 	Answer: ""
 	},
 
@@ -1047,7 +1047,7 @@ var questions = [
 
 
 
-	{ prompt: "In __________, each station is forced to send only at the beginning of the time slot.\n(A) pure ALOHA\n(B) slotted ALOHA\n(B)\n(B)", 
+	{ prompt: "In __________, each station is forced to send only at the beginning of the time slot.\n(A) pure ALOHA\n(B) slotted ALOHA\n(C) both (a) and (b)\n(D) neither (a) nor (b)", 
 	fullAnswer: "slotted ALOHA",
 	Answer: ""
 	},
